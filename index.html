@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de Dados de Cidades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Banco de Dados de Cidades</h1>
+    <form id="cityForm">
+        <div>
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" required>
+        </div>
+        <div>
+            <label for="pais">País:</label>
+            <input type="text" id="pais" required>
+        </div>
+        <div>
+            <label for="continente">Continente:</label>
+            <select id="continente" required>
+                <option value="África">África</option>
+                <option value="América">América</option>
+                <option value="Ásia">Ásia</option>
+                <option value="Europa">Europa</option>
+                <option value="Oceania">Oceania</option>
+            </select>
+        </div>
+        <div>
+            <label for="verao">Temperatura média no Verão (°C):</label>
+            <input type="number" id="verao" step="0.1" required>
+        </div>
+        <div>
+            <label for="outono">Temperatura média no Outono (°C):</label>
+            <input type="number" id="outono" step="0.1" required>
+        </div>
+        <div>
+            <label for="inverno">Temperatura média no Inverno (°C):</label>
+            <input type="number" id="inverno" step="0.1" required>
+        </div>
+        <div>
+            <label for="primavera">Temperatura média na Primavera (°C):</label>
+            <input type="number" id="primavera" step="0.1" required>
+        </div>
+        <button type="submit">Adicionar Cidade</button>
+    </form>
+
+    <br>    
+
+    <a href="resultado.html">Ver Tabela de Resultados</a>
+
+    <script src="script.js"></script>
+</body>
+</html>

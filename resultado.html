@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados das Cidades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Resultados das Cidades</h1>
+
+    <input type="text" id="search" placeholder="Buscar cidade, país e continente" oninput="searchData()">
+    <button onclick="sortData('asc')">Ordenar Crescente</button>
+    <button onclick="sortData('desc')">Ordenar Decrescente</button>
+
+
+    <table id="resultTable">
+        <thead>
+            <tr>
+                <th>Cidade</th>
+                <th>País</th>
+                <th>Continente</th>
+                <th>Verão (°C)</th>
+                <th>Outono (°C)</th>
+                <th>Inverno (°C)</th>
+                <th>Primavera (°C)</th>
+                <th>Média (°C)</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
